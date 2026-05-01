@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+</style>
+
+
+<link rel="stylesheet" href="assets/slider.css">
+
+
+</head>
+
+
+<body>
+
+
+<table style="table-layout: fixed; width:100%">
+<colgroup>
+<col style="width: 400px;">
+<col>
+</colgroup>
+  <tr>
+    <td>
+       <form action="https://formsubmit.co/4e5006d1beb362e19e65e5b8e0fb8dac" method="POST">
+       <div class="slidecontainer">
+       <p>Slider 1 <input id="slider_01" name="slider_01" type="range" step="0.1" class="slider" min="10" max="30" onchange="numbox_01.value=this.value" oninput="this.onchange()">
+       <input id="numbox_01" name="numbox_01" type="number" step="0.1" pattern="^\d*\.\d$" inputmode="decimal" min="10" max="30" pattern="[0-9]*\.?[0-9]*" onkeydown="if(['e', 'E', '+', '-'].includes(event.key)) event.preventDefault();" onchange="slider_01.value=this.value" oninput="this.onchange()" value="20.0"></p>
+       <p>Slider 2 <input id="slider_02" name="slider_02" type="range" step="0.1" class="slider" min="10" max="30" onchange="numbox_02.value=this.value" oninput="this.onchange()">
+       <input id="numbox_02" name="numbox_02" type="number" step="0.1" pattern="^\d*\.\d$" inputmode="decimal" min="10" max="30" pattern="[0-9]*\.?[0-9]*" onkeydown="if(['e', 'E', '+', '-'].includes(event.key)) event.preventDefault();" onchange="slider_02.value=this.value" oninput="this.onchange()" value="20.0"></p>
+       <p>Slider 3 <input id="slider_03" name="slider_03" type="range" step="0.1" class="slider" min="7" max="15" onchange="numbox_03.value=this.value" oninput="this.onchange()">
+       <input id="numbox_03" name="numbox_03" type="number" step="0.1" pattern="^\d*\.\d$" inputmode="decimal" min="7" max="15" pattern="[0-9]*\.?[0-9]*" onkeydown="if(['e', 'E', '+', '-'].includes(event.key)) event.preventDefault();" onchange="slider_03.value=this.value" oninput="this.onchange()" value="10.0"></p>
+       <p>Slider 4 <input id="slider_04" name="slider_04" type="range" step="0.1" class="slider" min="6" max="10" onchange="numbox_04.value=this.value" oninput="this.onchange()">
+       <input id="numbox_04" name="numbox_04" type="number" step="0.1" pattern="^\d*\.\d$" inputmode="decimal" min="6" max="10" pattern="[0-9]*\.?[0-9]*" onkeydown="if(['e', 'E', '+', '-'].includes(event.key)) event.preventDefault();" onchange="slider_04.value=this.value" oninput="this.onchange()" value="8.0"></p>
+       <p>Slider 5 <input id="slider_05" name="slider_05" type="range" step="0.1" class="slider" min="6" max="10" onchange="numbox_05.value=this.value" oninput="this.onchange()">
+       <input id="numbox_05" name="numbox_05" type="number" step="0.1" pattern="^\d*\.\d$" inputmode="decimal" min="6" max="10" pattern="[0-9]*\.?[0-9]*" onkeydown="if(['e', 'E', '+', '-'].includes(event.key)) event.preventDefault();" onchange="slider_05.value=this.value" oninput="this.onchange()" value="8.0"></p>
+       </div>
+
+       <p><button id="button_01" name="button_01" type="button">Generate</button></p>
+       <p><button id="inputSubmit" name="inputSubmit" type="submit">Submit Form</button></p>
+       </form>
+
+    </td>
+    <td><div class="iframe-container">
+  <iframe id="myIframe" name="myIframe" src="https://violetcloud-ai.github.io/webtest2/Slider/index.html?v=N0PLKtg8" style="height: 600px; width: 800px; border: none;"></iframe>
+</div></td>
+  </tr>
+</table>
+
+
+</body>
+
+
+
+</html>
